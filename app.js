@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 
 
+//Middle wares
 app.use(function(req,res,next){
 	console.log("Hello");
 	next();
